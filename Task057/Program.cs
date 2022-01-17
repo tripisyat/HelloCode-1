@@ -27,7 +27,7 @@ void Show2DArray(int[,] arrayToShow, string nameOfArray)
     System.Console.WriteLine();
 }
 
-void SortingOfRowArray (int[,] arrayToSorting)
+void SortingOfRowArray(int[,] arrayToSorting)
 {
-   
+
 }
