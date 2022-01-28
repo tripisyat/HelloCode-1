@@ -57,7 +57,7 @@ int GetNumberOfNotNullItems(int[] frequencyRowArray)
 int[,] ClearOfNullFrequencyArray(int[] frequencyRowArray)
 {
     int numberOfNotNullItems = GetNumberOfNotNullItems(frequencyRowArray);
-    var frequencyArray = new int[numberOfNotNullItems,2];
+    var frequencyArray = new int[numberOfNotNullItems, 2];
     int currentFrequencyArrayIndex = 0;
     for (int i = 0; i < frequencyRowArray.Length; i++)
     {
